@@ -27,8 +27,8 @@ def run_game():
         gf.check_events(ai_settings, screen, ship, bullets)
         # 移动飞船
         ship.update()
-        # 更新子弹位置
-        bullets.update() # 调用update() ，编组将自动调用组中的每一个update()，即每颗子弹调用bullet.update()
+        # 更新子弹
+        gf.update_bullets(bullets)
         # 更新屏幕
         gf.update_screen(ai_settings, screen, ship, bullets)
 
