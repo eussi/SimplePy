@@ -1,19 +1,25 @@
 #!/usr/bin/env python
 # Author:Wang Xueming
 import pygame
+from pygame.sprite import Sprite
 
 
-class Ship ():
+class Ship(Sprite):
 
-    def __init__(self, ai_settings, screen):
+    def __init__(self, ai_settings, screen, flag):
         """初始化飞船并设置其初始位置"""
+        super().__init__()  # python 3
+
         self.screen = screen
         self.ai_settings = ai_settings
 
         # 加载飞船图像并获取其外接矩形
         self.image = pygame.image.load('images/alien_invasion/spacecraft.png')
         # 缩放图片
-        self.image = pygame.transform.scale(self.image, (60, 120))
+        if flag:    # 飞船
+            self.image = pygame.transform.scale(self.image, (60, 120))
+        else:   # 剩余飞船图标
+            self.image = pygame.transform.scale(self.image, (20, 40))
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
 
