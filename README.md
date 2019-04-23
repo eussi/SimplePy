@@ -21,7 +21,46 @@ Small projects done in python
 
 ##### Demo
 1. 启动界面
+
 ![image](https://github.com/eussi/SimplePy/blob/master/images/alien_invasion/invasion_demo_1.png)
 
 2. 运行界面
+
 ![image](https://github.com/eussi/SimplePy/blob/master/images/alien_invasion/invasion_demo_2.png)
+
+### random_walk
+##### Env
+1. python 3.6.3
+
+2. matplotlib 3.0.3
+
+##### Usage
+1. 安装matplotlib
+
+2. 运行rw_visual.py
+
+##### Demo
+1. 运行界面
+
+![image](https://github.com/eussi/SimplePy/blob/master/images/random_walk/random_walk.png)
+
+### Roll the dice
+##### Env
+1. python 3.6.3
+
+2. pygal 2.4.0
+
+##### Usage
+1. 安装pygal
+
+2. 运行die_visual.py / different_die.py
+
+##### Demo
+1. 运行界面1
+
+![image](https://github.com/eussi/SimplePy/blob/master/images/die_visual/die_visual.png)
+
+2. 运行界面2
+
+![image](https://github.com/eussi/SimplePy/blob/master/images/die_visual/different_die.png)
+
