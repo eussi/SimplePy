@@ -64,3 +64,25 @@ Small projects done in python
 
 ![image](https://github.com/eussi/SimplePy/blob/master/images/die_visual/different_die.png)
 
+### Download data display
+##### Env
+1. python 3.6.3
+
+2. pygal 2.4.0
+
+3. matplotlib 3.0.3
+
+##### Usage
+1. 安装pygal/matplotlib
+
+2. 运行highs_lows.py / death_life.py
+
+##### Demo
+1. 运行界面1
+
+![image](https://github.com/eussi/SimplePy/blob/master/images/download_data/life_expectancy.png)
+
+2. 运行界面2
+
+![image](https://github.com/eussi/SimplePy/blob/master/images/download_data/temp_thread.png)
+
