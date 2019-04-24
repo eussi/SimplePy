@@ -17,7 +17,7 @@ Small projects done in python
 ##### Usage
 1. 安装pygame
 
-2. 运行alien_invasion.py
+2. 运行p1_alien_invasion.py
 
 ##### Demo
 1. 启动界面
@@ -37,7 +37,7 @@ Small projects done in python
 ##### Usage
 1. 安装matplotlib
 
-2. 运行rw_visual.py
+2. 运行p2_mpl_squares / p2_scatter_squares / p2_rw_visual.py
 
 ##### Demo
 1. 运行界面
@@ -53,7 +53,7 @@ Small projects done in python
 ##### Usage
 1. 安装pygal
 
-2. 运行die_visual.py / different_die.py
+2. 运行p3_die_visual.py /p3_different_die.py
 
 ##### Demo
 1. 运行界面1
@@ -77,7 +77,7 @@ Small projects done in python
 ##### Usage
 1. 安装pygal/matplotlib/
 
-2. 运行highs_lows.py / death_life.py / americas.py / na_populations.py / world_population.py
+2. 运行p4_highs_lows.py / p4_death_life.py / p4_americas.py / p4_na_populations.py / p4_world_population.py
 
 ##### Demo
 1. 运行界面1

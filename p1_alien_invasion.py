@@ -2,13 +2,13 @@
 # Author:Wang Xueming
 import pygame
 
-from settings import Settings
-from ship import Ship
-import game_functions as gf
+from p1_settings import Settings
+from p1_ship import Ship
+import p1_game_functions as gf
 from pygame.sprite import Group
-from game_stats import GameStats
-from button import Button
-from scoreboard import Scoreboard
+from p1_game_stats import GameStats
+from p1_button import Button
+from p1_scoreboard import Scoreboard
 
 
 def run_game():

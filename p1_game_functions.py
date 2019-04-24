@@ -3,8 +3,8 @@
 import sys
 import pygame
 
-from bullet import Bullet
-from alien import Alien
+from p1_bullet import Bullet
+from p1_alien import Alien
 from time import sleep
 
 

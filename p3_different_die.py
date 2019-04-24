@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # Author:Wang Xueming
 
-from die import Die
+from p3_die import Die
 import pygal
 
 # 创建一个D6和一个D10

@@ -5,7 +5,7 @@ import json
 import pygal
 from pygal.style import LightColorizedStyle as LCS, RotateStyle as RS
 
-from country_codes import get_country_code
+from p4_country_codes import get_country_code
 
 # 将数据加载到一个列表中
 filename = 'files/population_json.json'

@@ -2,7 +2,7 @@
 # Author:Wang Xueming
 
 import matplotlib.pyplot as plt
-from random_walk import RandomWalk
+from p2_random_walk import RandomWalk
 
 # 只要程序处于活动状态，就不断地模拟随机漫步
 while True:

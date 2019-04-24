@@ -2,7 +2,7 @@
 # Author:Wang Xueming
 
 import pygal
-from die import Die
+from p3_die import Die
 
 # 创建两个D6骰子
 die_1 = Die()
