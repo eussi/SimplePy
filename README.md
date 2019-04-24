@@ -72,10 +72,12 @@ Small projects done in python
 
 3. matplotlib 3.0.3
 
-##### Usage
-1. 安装pygal/matplotlib
+4. pygal-maps-world 1.0.2
 
-2. 运行highs_lows.py / death_life.py
+##### Usage
+1. 安装pygal/matplotlib/
+
+2. 运行highs_lows.py / death_life.py / americas.py / na_populations.py / world_population.py
 
 ##### Demo
 1. 运行界面1
@@ -85,4 +87,8 @@ Small projects done in python
 2. 运行界面2
 
 ![image](https://github.com/eussi/SimplePy/blob/master/images/download_data/temp_thread.png)
+
+3. 运行界面2
+
+![image](https://github.com/eussi/SimplePy/blob/master/images/download_data/world_population.png)
 
