@@ -75,7 +75,7 @@ Small projects done in python
 4. pygal-maps-world 1.0.2
 
 ##### Usage
-1. 安装pygal/matplotlib/
+1. 安装pygal/matplotlib
 
 2. 运行p4_highs_lows.py / p4_death_life.py / p4_americas.py / p4_na_populations.py / p4_world_population.py
 
@@ -92,3 +92,19 @@ Small projects done in python
 
 ![image](https://github.com/eussi/SimplePy/blob/master/images/download_data/world_population.png)
 
+### Web Api
+##### Env
+1. python 3.6.3
+
+2. pygal 2.4.0
+
+3. requests 2.21.0
+
+##### Usage
+1. 安装pygal/requests
+
+2. 运行p5_python_repos.py
+
+##### Demo
+1. 运行界面1
+![image](https://github.com/eussi/SimplePy/blob/master/images/download_data/python_repo.png)
