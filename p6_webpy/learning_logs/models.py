@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth.models import User
 
 # Create your models here.
 
@@ -16,6 +17,7 @@ class Topic(models.Model):
     # 两个属性
     text = models.CharField(max_length=200) # 由字符或文本组成的数据，定义CharField 属性时，必须告诉Django该在数据库中预留多少空间
     date_added = models.DateTimeField(auto_now_add=True) # 记录日期和时间的数据，参数表示自动设置成当前日期和时间
+    owner = models.ForeignKey(User, on_delete=models.CASCADE)
 
     def __str__(self):
         """返回模型的字符串表示"""
