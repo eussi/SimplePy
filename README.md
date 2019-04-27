@@ -108,3 +108,24 @@ Small projects done in python
 ##### Demo
 1. 运行界面1
 ![image](https://github.com/eussi/SimplePy/blob/master/images/download_data/python_repo.png)
+
+### Django——Learing_Log
+##### Env
+1. python 3.6.3
+
+2. Django 2.2
+
+3. django-bootstrap3 11.0.0
+
+##### Usage
+1. python manage.py runserver
+
+##### Demo
+1. 运行界面1
+![image](https://github.com/eussi/SimplePy/blob/master/images/learning_log/index.png)
+
+2. 运行界面1
+![image](https://github.com/eussi/SimplePy/blob/master/images/learning_log/login.png)
+
+3. 运行界面1
+![image](https://github.com/eussi/SimplePy/blob/master/images/learning_log/topic.png)
