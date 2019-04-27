@@ -15,7 +15,15 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.conf.urls import include, url
+
+"""
+    定义URL
+    编写视图(
+    编写模板 
+"""
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    url(r'', include(('learning_logs.urls', 'learning_logs'), namespace='learning_logs')),
 ]

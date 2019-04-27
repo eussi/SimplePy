@@ -2,6 +2,13 @@ from django.db import models
 
 # Create your models here.
 
+"""
+添加一个新模型，因此需要再次迁移数据库：
+    修改models.py
+    执行命令python manage.py makemigrations app_name
+    执行命令python manage.py migrate
+"""
+
 
 class Topic(models.Model):
     """用户学习的主题"""

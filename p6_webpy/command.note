@@ -1,0 +1,42 @@
+1. 创建虚拟环境
+    $ python -m venv ll_env
+    如果你使用的是较早的Python版本，或者系统没有正确地设置，不能使用模块venv ，可安装virtualenv包
+        $ pip install --user virtualenv
+        $ virtualenv ll_env
+
+2. 激活虚拟环境
+    $ source ll_env/bin/activate    # linux环境
+    $ ll_env\Scripts\activate       # windows环境
+
+3. 停止虚拟环境
+    $ deactivate
+
+4. 安装Django
+    $ pip install Django
+
+5. 在Django中创建项目
+    $ django-admin.py startproject learning_log .
+        经测试，在windows下：
+            $ django-admin.exe startproject learning_log .
+
+6. 创建数据库
+    $ python manage.py migrate
+
+7. 查看项目
+    $ python manage.py runserver
+
+8. 创建应用程序
+    $ python manage.py startapp learning_logs
+    settings.py中INSTALLED_APPS添加应用程序
+
+9. 添加一个新模型，迁移数据库：
+    修改models.py
+    $ python manage.py makemigrations app_name
+    $ python manage.py migrate
+
+10. 创建超级用户
+    $ python manage.py createsuperuser
+    admin.py注册模型
+
+11. Django Shell
+    $ python manage.py shell
