@@ -8,7 +8,7 @@ Small projects done in python
 
 译者：袁国忠
 
-### alien_invasion
+### Alien_invasion
 ##### Env
 1. python 3.6.3
 
@@ -28,7 +28,7 @@ Small projects done in python
 
 ![image](https://github.com/eussi/SimplePy/blob/master/images/alien_invasion/invasion_demo_2.png)
 
-### random_walk
+### Random_walk
 ##### Env
 1. python 3.6.3
 
@@ -107,6 +107,7 @@ Small projects done in python
 
 ##### Demo
 1. 运行界面1
+
 ![image](https://github.com/eussi/SimplePy/blob/master/images/download_data/python_repo.png)
 
 ### Django——Learing_Log
@@ -124,8 +125,10 @@ Small projects done in python
 1. 运行界面1
 ![image](https://github.com/eussi/SimplePy/blob/master/images/learning_log/index.png)
 
-2. 运行界面1
+2. 运行界面2
+
 ![image](https://github.com/eussi/SimplePy/blob/master/images/learning_log/login.png)
 
-3. 运行界面1
+3. 运行界面3
+
 ![image](https://github.com/eussi/SimplePy/blob/master/images/learning_log/topic.png)
